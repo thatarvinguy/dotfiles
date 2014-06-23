@@ -23,22 +23,30 @@ set autoread               " Auto read when a file is changed from the outside
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Initialize Vundle
 filetype off
-set rtp+=~/.vim/bundle/vundle
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
-Plugin 'vundle'
-Plugin 'scrooloose/nerdtree.git'
+
+Plugin 'gmarik/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'ctrlp.vim'
+Plugin 'surround.vim'
+Plugin 'fugitive.vim'
 
 filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
+
+
+" Enable NERDTree on startup
+"autocmd vimenter * NERDTree
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 
 " In Ruby files, use 2 spaces instead of 4 for tabs
 autocmd FileType ruby setlocal sw=2 ts=2 sts=2
 
 " Enable omnicompletion
 set ofu=syntaxcomplete#Complete
-
-" Enable NERDTree on startup
-autocmd vimenter * NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -158,3 +166,9 @@ map <C-l> <C-W>l
 
 " Map <space> to / (search) and Ctrl-<space> to ? (backwards search)
 map <space> /
+
+" Map esc to jj
+inoremap jj <Esc>
+
+" Map ; to :
+nnoremap ; :

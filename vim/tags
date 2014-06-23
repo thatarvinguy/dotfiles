@@ -1,0 +1,546 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Bookmark.AddBookmark	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.AddBookmark(name, path)$/;"	f
+Bookmark.BookmarkExistsFor	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkExistsFor(name)$/;"	f
+Bookmark.BookmarkFor	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkFor(name)$/;"	f
+Bookmark.BookmarkNames	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkNames()$/;"	f
+Bookmark.Bookmarks	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.Bookmarks()$/;"	f
+Bookmark.CacheBookmarks	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.CacheBookmarks(silent)$/;"	f
+Bookmark.ClearAll	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.ClearAll()$/;"	f
+Bookmark.GetNodeForName	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.GetNodeForName(name, searchFromAbsoluteRoot)$/;"	f
+Bookmark.GetSelected	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.GetSelected()$/;"	f
+Bookmark.InvalidBookmarks	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.InvalidBookmarks()$/;"	f
+Bookmark.New	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.New(name, path)$/;"	f
+Bookmark.Sort	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.Sort()$/;"	f
+Bookmark.ToRoot	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.ToRoot(name)$/;"	f
+Bookmark.Write	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.Write()$/;"	f
+Bookmark.activate	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.activate(...)$/;"	f
+Bookmark.compareTo	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.compareTo(otherbookmark)$/;"	f
+Bookmark.delete	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.delete()$/;"	f
+Bookmark.getNode	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.getNode(searchFromAbsoluteRoot)$/;"	f
+Bookmark.mustExist	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.mustExist()$/;"	f
+Bookmark.open	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.open(...)$/;"	f
+Bookmark.openInNewTab	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.openInNewTab(options)$/;"	f
+Bookmark.setPath	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.setPath(path)$/;"	f
+Bookmark.str	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.str()$/;"	f
+Bookmark.toRoot	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.toRoot()$/;"	f
+Bookmark.validate	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.validate()$/;"	f
+BuildContextStack	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:BuildContextStack(namespaces, szCurrentScope)$/;"	f
+Bundle	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=+                                                Bundle        call vundle#config#bundle(<args>)$/;"	c
+BundleClean	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang                                          BundleClean   PluginClean<bang>$/;"	c
+BundleDocs	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=0                                                BundleDocs    PluginDocs$/;"	c
+BundleInstall	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete BundleInstall PluginInstall<bang> <args>$/;"	c
+BundleList	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=0 -bang                                          BundleList    PluginList<bang>$/;"	c
+BundleSearch	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete BundleSearch  PluginSearch<bang> <args>$/;"	c
+BundleUpdate	bundle/Vundle.vim/autoload/vundle.vim	/^com!                                                         BundleUpdate  PluginInstall!$/;"	c
+CanUseOmnicompletion	bundle/OmniCppComplete/autoload/omni/cpp/maycomplete.vim	/^function! s:CanUseOmnicompletion()$/;"	f
+Creator.BufNamePrefix	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.BufNamePrefix()$/;"	f
+Creator.CreateMirror	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.CreateMirror()$/;"	f
+Creator.CreatePrimary	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.CreatePrimary(name)$/;"	f
+Creator.CreateSecondary	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.CreateSecondary(dir)$/;"	f
+Creator.New	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.New()$/;"	f
+Creator.TogglePrimary	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.TogglePrimary(dir)$/;"	f
+Creator._bindMappings	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._bindMappings()$/;"	f
+Creator._broadcastInitEvent	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._broadcastInitEvent()$/;"	f
+Creator._createTreeWin	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._createTreeWin()$/;"	f
+Creator._nextBufferName	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._nextBufferName()$/;"	f
+Creator._nextBufferNumber	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._nextBufferNumber()$/;"	f
+Creator._pathForString	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._pathForString(str)$/;"	f
+Creator._setCommonBufOptions	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._setCommonBufOptions()$/;"	f
+Creator._setupStatusline	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._setupStatusline()$/;"	f
+Creator.createMirror	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.createMirror()$/;"	f
+Creator.createPrimary	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.createPrimary(name)$/;"	f
+Creator.createSecondary	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.createSecondary(dir)$/;"	f
+Creator.togglePrimary	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.togglePrimary(dir)$/;"	f
+DisplayIncludeTree	bundle/OmniCppComplete/autoload/omni/cpp/includes.vim	/^function! s:DisplayIncludeTree(szFilePath, indent, ...)$/;"	f
+ExtendTagItemToPopupItem	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:ExtendTagItemToPopupItem(tagItem, szTypeName)$/;"	f
+ExtractScopeFromTypeInfo	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! s:ExtractScopeFromTypeInfo(szTypeInfo)$/;"	f
+ExtractTypeInfoFromDecl	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:ExtractTypeInfoFromDecl(tokens)$/;"	f
+FilterClassMembers	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:FilterClassMembers(tagPopupList, szAccessFilter)$/;"	f
+FilterClassScopeMembers	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:FilterClassScopeMembers(tagPopupList, szAccessFilter)$/;"	f
+FilterNamespaceScopeMembers	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:FilterNamespaceScopeMembers(tagPopupList)$/;"	f
+FilterOverloadedFunctions	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:FilterOverloadedFunctions(tagPopupList)$/;"	f
+FilterStaticClassMembers	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:FilterStaticClassMembers(tagPopupList, szAccessFilter)$/;"	f
+FindStartPositionOfCompletion	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:FindStartPositionOfCompletion()$/;"	f
+GetAccessFilter	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:GetAccessFilter(szFilter, szAccessFilter)$/;"	f
+GetAllUsingNamespaceMapFromCurrentBuffer	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:GetAllUsingNamespaceMapFromCurrentBuffer(...)$/;"	f
+GetAllUsingNamespaceMapFromFile	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:GetAllUsingNamespaceMapFromFile(szFilePath, ...)$/;"	f
+GetClassScopeAtCursor	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:GetClassScopeAtCursor()$/;"	f
+GetIncludeListFromCurrentBuffer	bundle/OmniCppComplete/autoload/omni/cpp/includes.vim	/^function! s:GetIncludeListFromCurrentBuffer()$/;"	f
+GetIncludeListFromFile	bundle/OmniCppComplete/autoload/omni/cpp/includes.vim	/^function! s:GetIncludeListFromFile(szFilePath, bUpdate) $/;"	f
+GetNamespaceAliasListFromLine	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:GetNamespaceAliasListFromLine(szLine)$/;"	f
+GetNamespaceAliasMap	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:GetNamespaceAliasMap()$/;"	f
+GetNamespaceListFromLine	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:GetNamespaceListFromLine(szLine)$/;"	f
+GetStopPositionForLocalSearch	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:GetStopPositionForLocalSearch()$/;"	f
+GetSymbol	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:GetSymbol(tokens)$/;"	f
+GetTagOfSameScope	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! s:GetTagOfSameScope(listTags, szScopeToMatch)$/;"	f
+GetTypeInfoOfReturnedType	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:GetTypeInfoOfReturnedType(contextStack, szFunctionName)$/;"	f
+GetTypeInfoOfVariable	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:GetTypeInfoOfVariable(contextStack, szVariable, bSearchDecl)$/;"	f
+GetUsingNamespaceListFromMap	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:GetUsingNamespaceListFromMap(namespaceMap, ...)$/;"	f
+HasATagFileOrTagEnvChanged	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:HasATagFileOrTagEnvChanged()$/;"	f
+HasTagEnvChanged	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:HasTagEnvChanged()$/;"	f
+InitComplete	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:InitComplete()$/;"	f
+IsCached	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:IsCached(cache, szKey1, szKey2)$/;"	f
+IsTypeInfoResolved	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! s:IsTypeInfoResolved(szTypeInfo)$/;"	f
+IsUnnamedType	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:IsUnnamedType(tagItem)$/;"	f
+KeyMap.Add	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Add(keymap)$/;"	f
+KeyMap.All	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.All()$/;"	f
+KeyMap.BindAll	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.BindAll()$/;"	f
+KeyMap.Create	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Create(options)$/;"	f
+KeyMap.FindFor	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.FindFor(key, scope)$/;"	f
+KeyMap.Invoke	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Invoke(key)$/;"	f
+KeyMap.Remove	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Remove(key, scope)$/;"	f
+KeyMap.bind	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.bind()$/;"	f
+KeyMap.invoke	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.invoke(...)$/;"	f
+LocalSearchDecl	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:LocalSearchDecl(name)$/;"	f
+MenuController.New	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController.New(menuItems)$/;"	f
+MenuController._allIndexesFor	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._allIndexesFor(shortcut)$/;"	f
+MenuController._current	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._current()$/;"	f
+MenuController._cursorDown	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._cursorDown()$/;"	f
+MenuController._cursorUp	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._cursorUp()$/;"	f
+MenuController._echoPrompt	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._echoPrompt()$/;"	f
+MenuController._handleKeypress	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._handleKeypress(key)$/;"	f
+MenuController._nextIndexFor	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._nextIndexFor(shortcut)$/;"	f
+MenuController._restoreOptions	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._restoreOptions()$/;"	f
+MenuController._saveOptions	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._saveOptions()$/;"	f
+MenuController._setCmdheight	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._setCmdheight()$/;"	f
+MenuController.showMenu	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController.showMenu()$/;"	f
+MenuItem.All	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.All()$/;"	f
+MenuItem.AllEnabled	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.AllEnabled()$/;"	f
+MenuItem.Create	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.Create(options)$/;"	f
+MenuItem.CreateSeparator	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.CreateSeparator(options)$/;"	f
+MenuItem.CreateSubmenu	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.CreateSubmenu(options)$/;"	f
+MenuItem.enabled	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.enabled()$/;"	f
+MenuItem.execute	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.execute()$/;"	f
+MenuItem.isSeparator	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.isSeparator()$/;"	f
+MenuItem.isSubmenu	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.isSubmenu()$/;"	f
+NERDTree	bundle/nerdtree/plugin/NERD_tree.vim	/^augroup NERDTree$/;"	a
+NERDTree	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=? -complete=dir -bar NERDTree :call g:NERDTreeCreator.CreatePrimary('<args>')$/;"	c
+NERDTreeAddKeyMap	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddKeyMap(options)$/;"	f
+NERDTreeAddMenuItem	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuItem(options)$/;"	f
+NERDTreeAddMenuSeparator	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuSeparator(...)$/;"	f
+NERDTreeAddNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeAddNode()$/;"	f
+NERDTreeAddSubmenu	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddSubmenu(options)$/;"	f
+NERDTreeCWD	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeCWD call NERDTreeCWD()$/;"	c
+NERDTreeCWD	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeCWD()$/;"	f
+NERDTreeClose	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeClose :call nerdtree#closeTreeIfOpen()$/;"	c
+NERDTreeCopyNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeCopyNode()$/;"	f
+NERDTreeDeleteNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeDeleteNode()$/;"	f
+NERDTreeExecFile	bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFile()$/;"	f
+NERDTreeExecFileActive	bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFileActive()$/;"	f
+NERDTreeExecuteFile	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeExecuteFile()$/;"	f
+NERDTreeFind	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeFind call nerdtree#findAndRevealPath()$/;"	c
+NERDTreeFocus	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeFocus call NERDTreeFocus()$/;"	c
+NERDTreeFocus	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeFocus()$/;"	f
+NERDTreeFromBookmark	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=1 -complete=customlist,nerdtree#completeBookmarks -bar NERDTreeFromBookmark call g:NERDTreeCreator.CreatePrimary('<args>')$/;"	c
+NERDTreeHijackNetrw	bundle/nerdtree/plugin/NERD_tree.vim	/^    augroup NERDTreeHijackNetrw$/;"	a
+NERDTreeMirror	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeMirror call g:NERDTreeCreator.CreateMirror()$/;"	c
+NERDTreeMoveNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeMoveNode()$/;"	f
+NERDTreeQuickLook	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeQuickLook()$/;"	f
+NERDTreeRender	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeRender()$/;"	f
+NERDTreeRevealInFinder	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeRevealInFinder()$/;"	f
+NERDTreeToggle	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=? -complete=dir -bar NERDTreeToggle :call g:NERDTreeCreator.TogglePrimary('<args>')$/;"	c
+Opener.New	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener.New(path, opts)$/;"	f
+Opener._checkToCloseTree	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._checkToCloseTree(newtab)$/;"	f
+Opener._gotoTargetWin	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._gotoTargetWin()$/;"	f
+Opener._newSplit	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._newSplit()$/;"	f
+Opener._newVSplit	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._newVSplit()$/;"	f
+Opener._openDirectory	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._openDirectory(node)$/;"	f
+Opener._openFile	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._openFile()$/;"	f
+Opener._previousWindow	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._previousWindow()$/;"	f
+Opener._restoreCursorPos	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._restoreCursorPos()$/;"	f
+Opener._reuseWindow	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._reuseWindow()$/;"	f
+Opener._saveCursorPos	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._saveCursorPos()$/;"	f
+Opener.open	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener.open(target)$/;"	f
+Path.AbsolutePathFor	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.AbsolutePathFor(str)$/;"	f
+Path.CopyingSupported	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.CopyingSupported()$/;"	f
+Path.Create	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.Create(fullpath)$/;"	f
+Path.JoinPathStrings	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.JoinPathStrings(...)$/;"	f
+Path.New	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.New(path)$/;"	f
+Path.Resolve	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.Resolve(path)$/;"	f
+Path.Slash	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.Slash()$/;"	f
+Path.WinToUnixPath	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.WinToUnixPath(pathstr)$/;"	f
+Path._ignorePatternMatches	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._ignorePatternMatches(pattern)$/;"	f
+Path._str	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._str()$/;"	f
+Path._strForCd	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForCd()$/;"	f
+Path._strForEdit	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForEdit()$/;"	f
+Path._strForGlob	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForGlob()$/;"	f
+Path._strForUI	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForUI()$/;"	f
+Path.bookmarkNames	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.bookmarkNames()$/;"	f
+Path.cacheDisplayString	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.cacheDisplayString()$/;"	f
+Path.changeToDir	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.changeToDir()$/;"	f
+Path.compareTo	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.compareTo(path)$/;"	f
+Path.copy	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.copy(dest)$/;"	f
+Path.copyingWillOverwrite	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.copyingWillOverwrite(dest)$/;"	f
+Path.delete	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.delete()$/;"	f
+Path.displayString	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.displayString()$/;"	f
+Path.edit	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.edit()$/;"	f
+Path.equals	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.equals(path)$/;"	f
+Path.exists	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.exists()$/;"	f
+Path.extractDriveLetter	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.extractDriveLetter(fullpath)$/;"	f
+Path.getDir	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getDir()$/;"	f
+Path.getLastPathComponent	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getLastPathComponent(dirSlash)$/;"	f
+Path.getParent	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getParent()$/;"	f
+Path.getSortOrderIndex	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getSortOrderIndex()$/;"	f
+Path.ignore	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.ignore()$/;"	f
+Path.isUnder	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnder(path)$/;"	f
+Path.isUnixHiddenFile	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnixHiddenFile()$/;"	f
+Path.isUnixHiddenPath	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnixHiddenPath()$/;"	f
+Path.readInfoFromDisk	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.readInfoFromDisk(fullpath)$/;"	f
+Path.refresh	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.refresh()$/;"	f
+Path.rename	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.rename(newPath)$/;"	f
+Path.str	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.str(...)$/;"	f
+Path.strTrunk	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.strTrunk()$/;"	f
+Path.tabnr	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.tabnr()$/;"	f
+Plugin	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=+  -bar   Plugin$/;"	c
+PluginClean	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang   PluginClean$/;"	c
+PluginDocs	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=0         PluginDocs$/;"	c
+PluginInstall	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete PluginInstall$/;"	c
+PluginList	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=0 -bang PluginList$/;"	c
+PluginSearch	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete PluginSearch$/;"	c
+PluginUpdate	bundle/Vundle.vim/autoload/vundle.vim	/^com! PluginUpdate PluginInstall!$/;"	c
+RemoveCComments	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! s:RemoveCComments(szLine)$/;"	f
+ResolveAliasInNamespaceList	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:ResolveAliasInNamespaceList(mapNamespaceAlias, listNamespaces)$/;"	f
+ResolveAliasKey	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:ResolveAliasKey(mapNamespaceAlias, szAlias)$/;"	f
+ResolveAliasKeys	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:ResolveAliasKeys(mapNamespaceAlias)$/;"	f
+ResolveCCast	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:ResolveCCast(tokens)$/;"	f
+ResolveCast	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:ResolveCast(tokens, startChar, endChar)$/;"	f
+ResolveCppCast	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:ResolveCppCast(tokens)$/;"	f
+ResolveNamespace	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! s:ResolveNamespace(namespace, mapCurrentContexts)$/;"	f
+ResolveSymbol	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:ResolveSymbol(contextStack, szSymbol, szTagFilter)$/;"	f
+SID	bundle/nerdtree/autoload/nerdtree.vim	/^function s:SID()$/;"	f
+SearchDecl	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:SearchDecl(szVariable)$/;"	f
+SearchGlobalMembers	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:SearchGlobalMembers(szBase)$/;"	f
+SearchMembers	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:SearchMembers(resolvedTagItem, szBase)$/;"	f
+SearchTypeInfoOfDecl	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:SearchTypeInfoOfDecl(szVariable)$/;"	f
+TagPopupList	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! s:TagPopupList(szTypeName, szBase)$/;"	f
+TokensToString	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! s:TokensToString(tokens)$/;"	f
+TreeDirNode.AbsoluteTreeRoot	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.AbsoluteTreeRoot()$/;"	f
+TreeDirNode.GetSelected	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.GetSelected()$/;"	f
+TreeDirNode.New	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.New(path)$/;"	f
+TreeDirNode._initChildren	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._initChildren(silent)$/;"	f
+TreeDirNode._openInNewTab	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._openInNewTab()$/;"	f
+TreeDirNode._openRecursively2	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._openRecursively2(forceOpen)$/;"	f
+TreeDirNode.activate	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.activate(...)$/;"	f
+TreeDirNode.addChild	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.addChild(treenode, inOrder)$/;"	f
+TreeDirNode.close	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.close()$/;"	f
+TreeDirNode.closeChildren	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.closeChildren()$/;"	f
+TreeDirNode.createChild	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.createChild(path, inOrder)$/;"	f
+TreeDirNode.findNode	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.findNode(path)$/;"	f
+TreeDirNode.getChild	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChild(path)$/;"	f
+TreeDirNode.getChildByIndex	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildByIndex(indx, visible)$/;"	f
+TreeDirNode.getChildCount	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildCount()$/;"	f
+TreeDirNode.getChildIndex	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildIndex(path)$/;"	f
+TreeDirNode.getVisibleChildCount	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getVisibleChildCount()$/;"	f
+TreeDirNode.getVisibleChildren	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getVisibleChildren()$/;"	f
+TreeDirNode.hasVisibleChildren	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.hasVisibleChildren()$/;"	f
+TreeDirNode.open	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.open(...)$/;"	f
+TreeDirNode.openAlong	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openAlong(...)$/;"	f
+TreeDirNode.openExplorer	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openExplorer()$/;"	f
+TreeDirNode.openInNewTab	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openInNewTab(options)$/;"	f
+TreeDirNode.openRecursively	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openRecursively()$/;"	f
+TreeDirNode.refresh	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.refresh()$/;"	f
+TreeDirNode.removeChild	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.removeChild(treenode)$/;"	f
+TreeDirNode.reveal	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.reveal(path)$/;"	f
+TreeDirNode.sortChildren	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.sortChildren()$/;"	f
+TreeDirNode.toggleOpen	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.toggleOpen(...)$/;"	f
+TreeDirNode.transplantChild	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.transplantChild(newNode)$/;"	f
+TreeFileNode.GetRootForTab	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.GetRootForTab()$/;"	f
+TreeFileNode.GetRootLineNum	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.GetRootLineNum()$/;"	f
+TreeFileNode.GetSelected	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.GetSelected()$/;"	f
+TreeFileNode.New	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.New(path)$/;"	f
+TreeFileNode._renderToString	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode._renderToString(depth, drawText, vertMap, isLastChild)$/;"	f
+TreeFileNode.activate	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.activate(...)$/;"	f
+TreeFileNode.bookmark	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.bookmark(name)$/;"	f
+TreeFileNode.cacheParent	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.cacheParent()$/;"	f
+TreeFileNode.clearBookmarks	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.clearBookmarks()$/;"	f
+TreeFileNode.copy	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.copy(dest)$/;"	f
+TreeFileNode.delete	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.delete()$/;"	f
+TreeFileNode.displayString	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.displayString()$/;"	f
+TreeFileNode.equals	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.equals(treenode)$/;"	f
+TreeFileNode.findNode	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findNode(path)$/;"	f
+TreeFileNode.findOpenDirSiblingWithVisibleChildren	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findOpenDirSiblingWithVisibleChildren(direction)$/;"	f
+TreeFileNode.findSibling	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findSibling(direction)$/;"	f
+TreeFileNode.getLineNum	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.getLineNum()$/;"	f
+TreeFileNode.isRoot	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.isRoot()$/;"	f
+TreeFileNode.isVisible	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.isVisible()$/;"	f
+TreeFileNode.makeRoot	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.makeRoot()$/;"	f
+TreeFileNode.open	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.open(...)$/;"	f
+TreeFileNode.openInNewTab	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openInNewTab(options)$/;"	f
+TreeFileNode.openSplit	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openSplit()$/;"	f
+TreeFileNode.openVSplit	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openVSplit()$/;"	f
+TreeFileNode.putCursorHere	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.putCursorHere(isJump, recurseUpward)$/;"	f
+TreeFileNode.refresh	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.refresh()$/;"	f
+TreeFileNode.rename	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.rename(newName)$/;"	f
+TreeFileNode.renderToString	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.renderToString()$/;"	f
+VundleClean	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang                                          VundleClean   PluginClean<bang>$/;"	c
+VundleDocs	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=0                                                VundleDocs    PluginDocs$/;"	c
+VundleInstall	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete VundleInstall PluginInstall<bang> <args>$/;"	c
+VundleSearch	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete VundleSearch  PluginSearch<bang> <args>$/;"	c
+VundleUpdate	bundle/Vundle.vim/autoload/vundle.vim	/^com!                                                         VundleUpdate  PluginInstall!$/;"	c
+activateAll	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:activateAll()$/;"	f
+activateBookmark	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:activateBookmark(bm)$/;"	f
+activateDirNode	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:activateDirNode(node)$/;"	f
+activateFileNode	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:activateFileNode(node)$/;"	f
+bundle.is_pinned	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:bundle.is_pinned()$/;"	f
+bundle.path	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:bundle.path()$/;"	f
+chCwd	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:chCwd(node)$/;"	f
+chRoot	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:chRoot(node)$/;"	f
+check_bundle_name	bundle/Vundle.vim/autoload/vundle/config.vim	/^funct! s:check_bundle_name(bundle)$/;"	f
+closeChildren	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:closeChildren(node)$/;"	f
+closeCurrentDir	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:closeCurrentDir(node)$/;"	f
+closeTreeWindow	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:closeTreeWindow()$/;"	f
+create_changelog	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! s:create_changelog() abort$/;"	f
+deleteBookmark	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:deleteBookmark(bm)$/;"	f
+displayHelp	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:displayHelp()$/;"	f
+echo	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:echo(msg)$/;"	f
+echoWarning	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:echoWarning(msg)$/;"	f
+expand_path	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:expand_path(path) abort$/;"	f
+fetch_scripts	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! s:fetch_scripts(to)$/;"	f
+g:NERDTreeAutoDeleteBuffer	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^    let g:NERDTreeAutoDeleteBuffer = 0$/;"	v
+g:NERDTreeBookmark	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^let g:NERDTreeBookmark = s:Bookmark$/;"	v
+g:NERDTreeCreator	bundle/nerdtree/lib/nerdtree/creator.vim	/^let g:NERDTreeCreator = s:Creator$/;"	v
+g:NERDTreeDirNode	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^let g:NERDTreeDirNode = s:TreeDirNode$/;"	v
+g:NERDTreeFileNode	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^let g:NERDTreeFileNode = s:TreeFileNode$/;"	v
+g:NERDTreeIgnore	bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeIgnore = ['\\~$']$/;"	v
+g:NERDTreeKeyMap	bundle/nerdtree/lib/nerdtree/key_map.vim	/^let g:NERDTreeKeyMap = s:KeyMap$/;"	v
+g:NERDTreeMenuController	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^let g:NERDTreeMenuController = s:MenuController$/;"	v
+g:NERDTreeMenuItem	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^let g:NERDTreeMenuItem = s:MenuItem$/;"	v
+g:NERDTreeOpener	bundle/nerdtree/lib/nerdtree/opener.vim	/^let g:NERDTreeOpener = s:Opener$/;"	v
+g:NERDTreePath	bundle/nerdtree/lib/nerdtree/path.vim	/^let g:NERDTreePath = s:Path$/;"	v
+g:NERDTreeSortOrder	bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeSortOrder = ['\\\/$', '*', '\\.swp$',  '\\.bak$', '\\~$']$/;"	v
+g:NERDTreeStatusline	bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeStatusline = "%{exists('b:NERDTreeRoot')?b:NERDTreeRoot.path.str():''}"$/;"	v
+g:loaded_nerdtree_autoload	bundle/nerdtree/autoload/nerdtree.vim	/^let g:loaded_nerdtree_autoload = 1$/;"	v
+g:loaded_nerdtree_exec_menuitem	bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^let g:loaded_nerdtree_exec_menuitem = 1$/;"	v
+g:loaded_nerdtree_fs_menu	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^let g:loaded_nerdtree_fs_menu = 1$/;"	v
+g:omni#cpp#includes#CACHE_FILE_TIME	bundle/OmniCppComplete/autoload/omni/cpp/includes.vim	/^let g:omni#cpp#includes#CACHE_FILE_TIME = {}$/;"	v
+g:omni#cpp#includes#CACHE_INCLUDES	bundle/OmniCppComplete/autoload/omni/cpp/includes.vim	/^let g:omni#cpp#includes#CACHE_INCLUDES = {}$/;"	v
+g:omni#cpp#namespaces#CacheResolve	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^let g:omni#cpp#namespaces#CacheResolve = {}$/;"	v
+g:omni#cpp#namespaces#CacheUsing	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^let g:omni#cpp#namespaces#CacheUsing = {}$/;"	v
+g:omni#cpp#utils#CACHE_TAG_INHERITS	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^let g:omni#cpp#utils#CACHE_TAG_INHERITS = {}$/;"	v
+g:omni#cpp#utils#szFilterGlobalScope	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^let g:omni#cpp#utils#szFilterGlobalScope .= "&& (!has_key(v:val, 'enum') || (has_key(v:val, 'enum') && v:val.enum =~ '^\\\\w\\\\+$')))"$/;"	v
+g:omni#cpp#utils#szFilterGlobalScope	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^let g:omni#cpp#utils#szFilterGlobalScope = "(!has_key(v:val, 'class') && !has_key(v:val, 'struct') && !has_key(v:val, 'union') && !has_key(v:val, 'namespace')"$/;"	v
+get_current_origin_url	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:get_current_origin_url(bundle) abort$/;"	f
+get_current_sha	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:get_current_sha(bundle)$/;"	f
+handleLeftClick	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:handleLeftClick()$/;"	f
+handleMiddleMouse	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:handleMiddleMouse()$/;"	f
+has_doc	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:has_doc(rtp) abort$/;"	f
+helptags	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:helptags(rtp) abort$/;"	f
+init	bundle/Vundle.vim/test/files/test.erl	/^init(_) ->$/;"	f	module:mmc_logmon_sup
+initVariable	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initVariable(var, value)$/;"	f
+jumpToFirstChild	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:jumpToFirstChild(node)$/;"	f
+jumpToLastChild	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:jumpToLastChild(node)$/;"	f
+jumpToNextSibling	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:jumpToNextSibling(node)$/;"	f
+jumpToParent	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:jumpToParent(node)$/;"	f
+jumpToPrevSibling	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:jumpToPrevSibling(node)$/;"	f
+jumpToRoot	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:jumpToRoot()$/;"	f
+load_scripts	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! s:load_scripts(bang)$/;"	f
+loaded_nerd_tree	bundle/nerdtree/plugin/NERD_tree.vim	/^let loaded_nerd_tree = 1$/;"	v
+log	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:log(str, ...) abort$/;"	f
+make_sync_command	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:make_sync_command(bang, bundle) abort$/;"	f
+mmc_logmon_sup	bundle/Vundle.vim/test/files/test.erl	/^-module(mmc_logmon_sup).$/;"	m
+nerdtree#bookmarkNode	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#bookmarkNode(...)$/;"	f
+nerdtree#bufInWindows	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#bufInWindows(bnum)$/;"	f
+nerdtree#centerView	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#centerView()$/;"	f
+nerdtree#chRoot	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#chRoot(node)$/;"	f
+nerdtree#chRootCwd	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#chRootCwd()$/;"	f
+nerdtree#checkForBrowse	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#checkForBrowse(dir)$/;"	f
+nerdtree#clearBookmarks	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#clearBookmarks(bookmarks)$/;"	f
+nerdtree#closeTree	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTree()$/;"	f
+nerdtree#closeTreeIfOpen	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTreeIfOpen()$/;"	f
+nerdtree#closeTreeIfQuitOnOpen	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTreeIfQuitOnOpen()$/;"	f
+nerdtree#compareBookmarks	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareBookmarks(first, second)$/;"	f
+nerdtree#compareNodes	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareNodes(n1, n2)$/;"	f
+nerdtree#completeBookmarks	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#completeBookmarks(A,L,P)$/;"	f
+nerdtree#createDefaultBindings	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#createDefaultBindings()$/;"	f
+nerdtree#deprecated	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#deprecated(func, ...)$/;"	f
+nerdtree#dumpHelp	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#dumpHelp()$/;"	f
+nerdtree#echo	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echo(msg)$/;"	f
+nerdtree#echoError	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echoError(msg)$/;"	f
+nerdtree#echoWarning	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echoWarning(msg)$/;"	f
+nerdtree#escChars	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#escChars()$/;"	f
+nerdtree#exec	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#exec(cmd)$/;"	f
+nerdtree#findAndRevealPath	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#findAndRevealPath()$/;"	f
+nerdtree#firstUsableWindow	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#firstUsableWindow()$/;"	f
+nerdtree#getPath	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#getPath(ln)$/;"	f
+nerdtree#getTreeWinNum	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#getTreeWinNum()$/;"	f
+nerdtree#has_opt	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#has_opt(options, name)$/;"	f
+nerdtree#indentLevelFor	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#indentLevelFor(line)$/;"	f
+nerdtree#invokeKeyMap	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#invokeKeyMap(key)$/;"	f
+nerdtree#isTreeOpen	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#isTreeOpen()$/;"	f
+nerdtree#isWindowUsable	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#isWindowUsable(winnumber)$/;"	f
+nerdtree#jumpToChild	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#jumpToChild(currentNode, direction)$/;"	f
+nerdtree#jumpToSibling	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#jumpToSibling(currentNode, forward)$/;"	f
+nerdtree#loadClassFiles	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#loadClassFiles()$/;"	f
+nerdtree#openBookmark	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#openBookmark(name)$/;"	f
+nerdtree#postSourceActions	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#postSourceActions()$/;"	f
+nerdtree#promptToDelBuffer	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#promptToDelBuffer(bufnum, msg)$/;"	f
+nerdtree#putCursorInTreeWin	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#putCursorInTreeWin()$/;"	f
+nerdtree#putCursorOnBookmarkTable	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#putCursorOnBookmarkTable()$/;"	f
+nerdtree#renderBookmarks	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderBookmarks()$/;"	f
+nerdtree#renderView	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderView()$/;"	f
+nerdtree#renderViewSavingPosition	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderViewSavingPosition()$/;"	f
+nerdtree#restoreScreenState	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#restoreScreenState()$/;"	f
+nerdtree#revealBookmark	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#revealBookmark(name)$/;"	f
+nerdtree#runningWindows	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#runningWindows()$/;"	f
+nerdtree#saveScreenState	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#saveScreenState()$/;"	f
+nerdtree#stripMarkupFromLine	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#stripMarkupFromLine(line, removeLeadingSpaces)$/;"	f
+nerdtree#tabpagevar	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#tabpagevar(tabnr, var)$/;"	f
+nerdtree#treeExistsForBuf	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeExistsForBuf()$/;"	f
+nerdtree#treeExistsForTab	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeExistsForTab()$/;"	f
+nerdtree#treeMarkupReg	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeMarkupReg()$/;"	f
+nerdtree#treeUpDirLine	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeUpDirLine()$/;"	f
+nerdtree#treeWid	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeWid()$/;"	f
+nerdtree#unique	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#unique(list)$/;"	f
+nerdtree#upDir	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#upDir(keepState)$/;"	f
+nerdtree#version	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#version()$/;"	f
+omni#common#debug#End	bundle/OmniCppComplete/autoload/omni/common/debug.vim	/^function! omni#common#debug#End()$/;"	f
+omni#common#debug#Start	bundle/OmniCppComplete/autoload/omni/common/debug.vim	/^function! omni#common#debug#Start()$/;"	f
+omni#common#debug#Trace	bundle/OmniCppComplete/autoload/omni/common/debug.vim	/^function! omni#common#debug#Trace(szFuncName, ...)$/;"	f
+omni#common#utils#CompareNumber	bundle/OmniCppComplete/autoload/omni/common/utils.vim	/^function! omni#common#utils#CompareNumber(i1, i2)$/;"	f
+omni#common#utils#GetWordUnderCursor	bundle/OmniCppComplete/autoload/omni/common/utils.vim	/^function! omni#common#utils#GetWordUnderCursor()$/;"	f
+omni#common#utils#TagList	bundle/OmniCppComplete/autoload/omni/common/utils.vim	/^function! omni#common#utils#TagList(szTagQuery)$/;"	f
+omni#common#utils#TagListNoThrow	bundle/OmniCppComplete/autoload/omni/common/utils.vim	/^function! omni#common#utils#TagListNoThrow(szTagQuery)$/;"	f
+omni#cpp#complete#Init	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! omni#cpp#complete#Init()$/;"	f
+omni#cpp#complete#Main	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^function! omni#cpp#complete#Main(findstart, base)$/;"	f
+omni#cpp#includes#Display	bundle/OmniCppComplete/autoload/omni/cpp/includes.vim	/^function! omni#cpp#includes#Display()$/;"	f
+omni#cpp#includes#GetList	bundle/OmniCppComplete/autoload/omni/cpp/includes.vim	/^function! omni#cpp#includes#GetList(...)$/;"	f
+omni#cpp#items#Get	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! omni#cpp#items#Get(tokens, ...)$/;"	f
+omni#cpp#items#ResolveItemsTypeInfo	bundle/OmniCppComplete/autoload/omni/cpp/items.vim	/^function! omni#cpp#items#ResolveItemsTypeInfo(contextStack, items)$/;"	f
+omni#cpp#maycomplete#Arrow	bundle/OmniCppComplete/autoload/omni/cpp/maycomplete.vim	/^function! omni#cpp#maycomplete#Arrow()$/;"	f
+omni#cpp#maycomplete#Complete	bundle/OmniCppComplete/autoload/omni/cpp/maycomplete.vim	/^function! omni#cpp#maycomplete#Complete()$/;"	f
+omni#cpp#maycomplete#Dot	bundle/OmniCppComplete/autoload/omni/cpp/maycomplete.vim	/^function! omni#cpp#maycomplete#Dot()$/;"	f
+omni#cpp#maycomplete#Scope	bundle/OmniCppComplete/autoload/omni/cpp/maycomplete.vim	/^function! omni#cpp#maycomplete#Scope()$/;"	f
+omni#cpp#namespaces#GetContexts	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetContexts()$/;"	f
+omni#cpp#namespaces#GetListFromCurrentBuffer	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetListFromCurrentBuffer(...)$/;"	f
+omni#cpp#namespaces#GetMapFromBuffer	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetMapFromBuffer(szFilePath, ...)$/;"	f
+omni#cpp#namespaces#GetMapFromCurrentBuffer	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetMapFromCurrentBuffer()$/;"	f
+omni#cpp#namespaces#GetUsingNamespaces	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetUsingNamespaces()$/;"	f
+omni#cpp#namespaces#ResolveAlias	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#ResolveAlias(mapNamespaceAlias, szNamespace)$/;"	f
+omni#cpp#namespaces#ResolveAll	bundle/OmniCppComplete/autoload/omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#ResolveAll(namespacesUsed)$/;"	f
+omni#cpp#settings#Init	bundle/OmniCppComplete/autoload/omni/cpp/settings.vim	/^function! omni#cpp#settings#Init()$/;"	f
+omni#cpp#tokenizer#Tokenize	bundle/OmniCppComplete/autoload/omni/cpp/tokenizer.vim	/^function! omni#cpp#tokenizer#Tokenize(szCode)$/;"	f
+omni#cpp#utils#BuildParenthesisGroups	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#BuildParenthesisGroups(tokens)$/;"	f
+omni#cpp#utils#CreateTypeInfo	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#CreateTypeInfo(param)$/;"	f
+omni#cpp#utils#ExtractCmdFromTagItem	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#ExtractCmdFromTagItem(tagItem)$/;"	f
+omni#cpp#utils#ExtractScope	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#ExtractScope(tagItem)$/;"	f
+omni#cpp#utils#ExtractTypeInfoFromTag	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#ExtractTypeInfoFromTag(tagItem)$/;"	f
+omni#cpp#utils#ExtractTypeInfoFromTokens	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#ExtractTypeInfoFromTokens(tokens)$/;"	f
+omni#cpp#utils#GetCastType	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetCastType(tokens)$/;"	f
+omni#cpp#utils#GetClassInheritanceList	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetClassInheritanceList(namespaces, typeInfo)$/;"	f
+omni#cpp#utils#GetCode	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetCode(posStart, posEnd)$/;"	f
+omni#cpp#utils#GetCodeFromLine	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetCodeFromLine(szSingleLine)$/;"	f
+omni#cpp#utils#GetPreviewWindowStringFromTagItem	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetPreviewWindowStringFromTagItem(tagItem)$/;"	f
+omni#cpp#utils#GetResolvedTagItem	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetResolvedTagItem(namespaces, typeInfo)$/;"	f
+omni#cpp#utils#GetResolvedTags	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetResolvedTags(namespaces, typeInfo)$/;"	f
+omni#cpp#utils#GetTypeInfoString	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#GetTypeInfoString(typeInfo)$/;"	f
+omni#cpp#utils#IsCursorInCommentOrString	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#IsCursorInCommentOrString()$/;"	f
+omni#cpp#utils#IsTypeInfoValid	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#IsTypeInfoValid(typeInfo)$/;"	f
+omni#cpp#utils#ResolveFilePath	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#ResolveFilePath(szFile)$/;"	f
+omni#cpp#utils#SimplifyParenthesis	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#SimplifyParenthesis(tokens)$/;"	f
+omni#cpp#utils#SimplifyScope	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#SimplifyScope(szScope)$/;"	f
+omni#cpp#utils#TokenizeCurrentInstruction	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#TokenizeCurrentInstruction(...)$/;"	f
+omni#cpp#utils#TokenizeCurrentInstructionUntilWord	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^function! omni#cpp#utils#TokenizeCurrentInstructionUntilWord()$/;"	f
+omni#cpp#utils#expIgnoreComments	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^let omni#cpp#utils#expIgnoreComments = 'getline(".") =~ g:omni#cpp#utils#reIgnoreComment'$/;"	v
+omni#cpp#utils#reIgnoreComment	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^let omni#cpp#utils#reIgnoreComment = escape('\\\/\\\/\\|\\\/\\*\\|\\*\\\/', '*\/\\')$/;"	v
+omni#cpp#utils#szEscapedCharacters	bundle/OmniCppComplete/autoload/omni/cpp/utils.vim	/^let omni#cpp#utils#szEscapedCharacters = ' %#'$/;"	v
+openExplorer	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:openExplorer(node)$/;"	f
+openHSplit	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:openHSplit(target)$/;"	f
+openInNewTab	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:openInNewTab(target)$/;"	f
+openInNewTabSilent	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:openInNewTabSilent(target)$/;"	f
+openNodeRecursively	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:openNodeRecursively(node)$/;"	f
+openVSplit	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:openVSplit(target)$/;"	f
+parse_name	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:parse_name(arg)$/;"	f
+parse_options	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:parse_options(opts)$/;"	f
+previewNodeCurrent	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:previewNodeCurrent(node)$/;"	f
+previewNodeHSplit	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:previewNodeHSplit(node)$/;"	f
+previewNodeVSplit	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:previewNodeVSplit(node)$/;"	f
+process	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:process(bang, cmd)$/;"	f
+promptToDelBuffer	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToDelBuffer(bufnum, msg)$/;"	f
+promptToRenameBuffer	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToRenameBuffer(bufnum, msg, newFileName)$/;"	f
+refreshCurrent	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:refreshCurrent(node)$/;"	f
+refreshRoot	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:refreshRoot()$/;"	f
+rtp_add	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_add(dir) abort$/;"	f
+rtp_add_a	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_add_a()$/;"	f
+rtp_add_defaults	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_add_defaults()$/;"	f
+rtp_rm	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_rm(dir) abort$/;"	f
+rtp_rm_a	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_rm_a()$/;"	f
+rtpath	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:rtpath(opts)$/;"	f
+s:Bookmark	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^let s:Bookmark = {}$/;"	v
+s:CACHE_DEBUG_TRACE	bundle/OmniCppComplete/autoload/omni/common/debug.vim	/^let s:CACHE_DEBUG_TRACE = []$/;"	v
+s:CACHE_OVERLOADED_FUNCTIONS	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^let s:CACHE_OVERLOADED_FUNCTIONS = {}$/;"	v
+s:CACHE_TAG_ENV	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^let s:CACHE_TAG_ENV = ''$/;"	v
+s:CACHE_TAG_FILES	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^let s:CACHE_TAG_FILES = {}$/;"	v
+s:CACHE_TAG_POPUP_ITEMS	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^let s:CACHE_TAG_POPUP_ITEMS = {}$/;"	v
+s:Creator	bundle/nerdtree/lib/nerdtree/creator.vim	/^let s:Creator = {}$/;"	v
+s:KeyMap	bundle/nerdtree/lib/nerdtree/key_map.vim	/^let s:KeyMap = {}$/;"	v
+s:MenuController	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^let s:MenuController = {}$/;"	v
+s:MenuItem	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^let s:MenuItem = {}$/;"	v
+s:NERDTreeSortStarIndex	bundle/nerdtree/lib/nerdtree/path.vim	/^let s:NERDTreeSortStarIndex = index(g:NERDTreeSortOrder, '*')$/;"	v
+s:OmniCpp_ShowAccess	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^let s:OmniCpp_ShowAccess = g:OmniCpp_ShowAccess$/;"	v
+s:OmniCpp_ShowPrototypeInAbbr	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^let s:OmniCpp_ShowPrototypeInAbbr = g:OmniCpp_ShowPrototypeInAbbr$/;"	v
+s:OmniCpp_ShowScopeInAbbr	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^let s:OmniCpp_ShowScopeInAbbr = g:OmniCpp_ShowScopeInAbbr$/;"	v
+s:Opener	bundle/nerdtree/lib/nerdtree/opener.vim	/^let s:Opener = {}$/;"	v
+s:Path	bundle/nerdtree/lib/nerdtree/path.vim	/^let s:Path = {}$/;"	v
+s:TreeDirNode	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^let s:TreeDirNode = copy(g:NERDTreeFileNode)$/;"	v
+s:TreeFileNode	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^let s:TreeFileNode = {}$/;"	v
+s:bMayComplete	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^let s:bMayComplete = 0$/;"	v
+s:bundle	bundle/Vundle.vim/autoload/vundle/config.vim	/^let s:bundle = {}$/;"	v
+s:cppKeyword	bundle/OmniCppComplete/autoload/omni/cpp/tokenizer.vim	/^let s:cppKeyword = ['asm', 'auto', 'bool', 'break', 'case', 'catch', 'char', 'class', 'const', 'const_cast', 'continue', 'default', 'delete', 'do', 'double', 'dynamic_cast', 'else', 'enum', 'explicit', 'export', 'extern', 'false', 'float', 'for', 'friend', 'goto', 'if', 'inline', 'int', 'long', 'mutable', 'namespace', 'new', 'operator', 'private', 'protected', 'public', 'register', 'reinterpret_cast', 'return', 'short', 'signed', 'sizeof', 'static', 'static_cast', 'struct', 'switch', 'template', 'this', 'throw', 'true', 'try', 'typedef', 'typeid', 'typename', 'union', 'unsigned', 'using', 'virtual', 'void', 'volatile', 'wchar_t', 'while', 'and', 'and_eq', 'bitand', 'bitor', 'compl', 'not', 'not_eq', 'or', 'or_eq', 'xor', 'xor_eq']$/;"	v
+s:cppOperatorPunctuator	bundle/OmniCppComplete/autoload/omni/cpp/tokenizer.vim	/^let s:cppOperatorPunctuator = ['->*', '->', '--', '-=', '-', '!=', '!', '##', '#', '%:%:', '%=', '%>', '%:', '%', '&&', '&=', '&', '(', ')', '*=', '*', ',', '...', '.*', '.', '\/=', '\/', '::', ':>', ':', ';', '?', '[', ']', '^=', '^', '{', '||', '|=', '|', '}', '~', '++', '+=', '+', '<<=', '<%', '<:', '<<', '<=', '<', '==', '=', '>>=', '>>', '>=', '>']$/;"	v
+s:hasPreviewWindow	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^let s:hasPreviewWindow = match(&completeopt, 'preview')>=0$/;"	v
+s:hasPreviewWindowOld	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^let s:hasPreviewWindowOld = s:hasPreviewWindow$/;"	v
+s:old_cpo	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:old_cpo = &cpo$/;"	v
+s:popupItemResultList	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^let s:popupItemResultList = []$/;"	v
+s:reCComment	bundle/OmniCppComplete/autoload/omni/cpp/tokenizer.vim	/^let s:reCComment = '\\\/\\*\\|\\*\\\/'$/;"	v
+s:reComment	bundle/OmniCppComplete/autoload/omni/cpp/tokenizer.vim	/^let s:reComment = s:reCComment.'\\|'.s:reCppComment$/;"	v
+s:reCppComment	bundle/OmniCppComplete/autoload/omni/cpp/tokenizer.vim	/^let s:reCppComment = '\\\/\\\/'$/;"	v
+s:reCppKeyword	bundle/OmniCppComplete/autoload/omni/cpp/tokenizer.vim	/^let s:reCppKeyword = '\\C\\<'.join(s:cppKeyword, '\\>\\|\\<').'\\>'$/;"	v
+s:reCppOperatorOrPunctuator	bundle/OmniCppComplete/autoload/omni/cpp/tokenizer.vim	/^let s:reCppOperatorOrPunctuator = escape(join(s:cppOperatorPunctuator, '\\|'), '*.\/^~[]')$/;"	v
+s:reIncludeFilePart	bundle/OmniCppComplete/autoload/omni/cpp/includes.vim	/^let s:reIncludeFilePart = '\\(<\\|"\\)\\(\\f\\|\\s\\)\\+\\(>\\|"\\)'$/;"	v
+s:rePreprocIncludeFile	bundle/OmniCppComplete/autoload/omni/cpp/includes.vim	/^let s:rePreprocIncludeFile = s:rePreprocIncludePart . s:reIncludeFilePart$/;"	v
+s:rePreprocIncludePart	bundle/OmniCppComplete/autoload/omni/cpp/includes.vim	/^let s:rePreprocIncludePart = '\\C#\\s*include\\s*'$/;"	v
+s:szCurrentWorkingDir	bundle/OmniCppComplete/autoload/omni/cpp/complete.vim	/^let s:szCurrentWorkingDir = getcwd()$/;"	v
+s:tree_up_dir_line	bundle/nerdtree/syntax/nerdtree.vim	/^let s:tree_up_dir_line = '.. (up a dir)'$/;"	v
+showMenu	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:showMenu(node)$/;"	f
+sign	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:sign(status)$/;"	f
+strip	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:strip(str)$/;"	f
+sync	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:sync(bang, bundle) abort$/;"	f
+system	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:system(cmd) abort$/;"	f
+toggleIgnoreFilter	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:toggleIgnoreFilter()$/;"	f
+toggleShowBookmarks	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:toggleShowBookmarks()$/;"	f
+toggleShowFiles	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:toggleShowFiles()$/;"	f
+toggleShowHidden	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:toggleShowHidden()$/;"	f
+toggleZoom	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:toggleZoom()$/;"	f
+upDirCurrentRootClosed	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:upDirCurrentRootClosed()$/;"	f
+upDirCurrentRootOpen	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:upDirCurrentRootOpen()$/;"	f
+view_changelog	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! s:view_changelog()$/;"	f
+view_log	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! s:view_log()$/;"	f
+vundle#begin	bundle/Vundle.vim/autoload/vundle.vim	/^func! vundle#begin(...) abort$/;"	f
+vundle#config#activate_bundles	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#activate_bundles()$/;"	f
+vundle#config#bundle	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#bundle(arg, ...)$/;"	f
+vundle#config#init	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#init()$/;"	f
+vundle#config#init_bundle	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#init_bundle(name, opts)$/;"	f
+vundle#config#require	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#require(bundles) abort$/;"	f
+vundle#end	bundle/Vundle.vim/autoload/vundle.vim	/^func! vundle#end(...) abort$/;"	f
+vundle#installer#clean	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#clean(bang) abort$/;"	f
+vundle#installer#delete	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#delete(bang, dir_name) abort$/;"	f
+vundle#installer#docs	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#docs() abort$/;"	f
+vundle#installer#helptags	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#helptags(bundles) abort$/;"	f
+vundle#installer#install	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#install(bang, name) abort$/;"	f
+vundle#installer#install_and_require	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#install_and_require(bang, name) abort$/;"	f
+vundle#installer#list	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#list(bang) abort$/;"	f
+vundle#installer#new	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#new(bang, ...) abort$/;"	f
+vundle#installer#run	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#run(func_name, name, ...) abort$/;"	f
+vundle#installer#shellesc	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#shellesc(cmd) abort$/;"	f
+vundle#installer#shellesc_cd	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#shellesc_cd(cmd) abort$/;"	f
+vundle#rc	bundle/Vundle.vim/autoload/vundle.vim	/^func! vundle#rc(...) abort$/;"	f
+vundle#scripts#all	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#all(bang, ...)$/;"	f
+vundle#scripts#bundle_names	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#bundle_names(names)$/;"	f
+vundle#scripts#complete	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#complete(a,c,d)$/;"	f
+vundle#scripts#reload	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#reload() abort$/;"	f
+vundle#scripts#view	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#view(title, headers, results)$/;"	f
