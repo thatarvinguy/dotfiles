@@ -29,10 +29,10 @@ call vundle#rc()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'ctrlp.vim'
 Plugin 'surround.vim'
 Plugin 'fugitive.vim'
+Plugin 'bling/vim-airline'
 
 filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
 
