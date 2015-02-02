@@ -27,12 +27,11 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
 Plugin 'ctrlp.vim'
 Plugin 'surround.vim'
 Plugin 'fugitive.vim'
 Plugin 'bling/vim-airline'
+Plugin 'Valloric/YouCompleteMe'
 
 filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
 
@@ -48,6 +47,8 @@ autocmd FileType ruby setlocal sw=2 ts=2 sts=2
 " Enable omnicompletion
 set ofu=syntaxcomplete#Complete
 
+" Set location of YCM python file
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 03. Theme/Colors                                          "
