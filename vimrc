@@ -29,9 +29,8 @@ call vundle#rc()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'ctrlp.vim'
 Plugin 'surround.vim'
-Plugin 'fugitive.vim'
-Plugin 'bling/vim-airline'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'itchyny/lightline.vim'
 
 filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
 
@@ -66,6 +65,7 @@ set encoding=utf8          " set uft8 as standard encoding
 " 04. Vim UI                                                "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set number                 " show line numbers
+set relativenumber         " user relative line numbers
 set cul                    " highlight current line
 set laststatus=2           " last window always has a statusline
 set hlsearch               " highlight searched phrases
