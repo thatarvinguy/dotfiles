@@ -1,6 +1,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " File: .vimrc                                              "
-" 							    "
+" 							                                "
 " Sections:                                                 "
 "   01. General ................. General Vim behavior      "
 "   02. Events .................. General autocmd events    "
@@ -13,6 +13,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 01. General                                               "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 set nocompatible           " Kill Vi compatibility
 set history=700            " How many lines of history Vim must remember
 set autoread               " Auto read when a file is changed from the outside
@@ -21,6 +22,11 @@ set autoread               " Auto read when a file is changed from the outside
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 02. Events                                                "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Leader mapping - must happen before plugins are loaded
+let mapleader = ","
+let g:mapleader = ","
+
 "Initialize Vundle
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -117,9 +123,6 @@ autocmd BufWrite * :call DeleteTrailingWS()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 06. Keys                                                  "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Leader mapping
-let mapleader = ","
-let g:mapleader = ","
 " Fast saving
 nmap <leader>w :w! <cr>
 " Disable highlight when <leader><cr> is pressed
