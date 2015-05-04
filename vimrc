@@ -19,6 +19,7 @@ set history=700            " How many lines of history Vim must remember
 set autoread               " Auto read when a file is changed from the outside
 
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 02. Events                                                "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -45,9 +46,11 @@ filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
 "autocmd vimenter * NERDTree
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-
 " In Ruby files, use 2 spaces instead of 4 for tabs
 autocmd FileType ruby setlocal sw=2 ts=2 sts=2
+
+" Do not automatically add comment leaders
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Enable omnicompletion
 set ofu=syntaxcomplete#Complete
@@ -125,53 +128,21 @@ autocmd BufWrite * :call DeleteTrailingWS()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Fast saving
 nmap <leader>w :w! <cr>
+
 " Disable highlight when <leader><cr> is pressed
-map <silent> <leader><cr> :noh<cr>
-
-"Visual mode - pressing * or # will search for current selection
-function! CmdLine(str)
-    exe "menu Foo.Bar :" . a:str
-    emenu Foo.Bar
-    unmenu Foo
-endfunction
-
-function! VisualSelection(direction) range
-    let l:saved_reg = @"
-    execute "normal! vgvy"
-
-    let l:pattern = escape(@", '\\/.*$^~[]')
-    let l:pattern = substitute(l:pattern, "\n$", "", "")
-
-    if a:direction == 'b'
-        execute "normal ?" . l:pattern . "^M"
-    elseif a:direction == 'gv'
-        call CmdLine("vimgrep " . '/'. l:pattern . '/' . ' **/*.')
-    elseif a:direction == 'replace'
-        call CmdLine("%s" . '/'. l:pattern . '/')
-    elseif a:direction == 'f'
-        execute "normal /" . l:pattern . "^M"
-    endif
-
-    let @/ = l:pattern
-    let @" = l:saved_reg
-endfunction
-vnoremap <silent> * :call VisualSelection('f')<CR>
-vnoremap <silent> # :call VisualSelection('b')<CR>
+nmap <silent> <leader><cr> :noh<cr>
 
 " Treat long lines as break lines
 map j gj
 map k gk
 
-" Smart way to move between windows
+" Smart way to move between splits
 map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-" Map <space> to / (search) and Ctrl-<space> to ? (backwards search)
-map <space> /
-
-" Map esc to jj
+" Map jj to Esc
 inoremap jj <Esc>
 
 " Map ; to :
