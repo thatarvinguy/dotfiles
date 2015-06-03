@@ -38,6 +38,7 @@ Plugin 'ctrlp.vim'
 Plugin 'surround.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'itchyny/lightline.vim'
+Plugin 'mattn/emmet-vim'
 
 filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
 
@@ -45,9 +46,6 @@ filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
 " Enable NERDTree on startup
 "autocmd vimenter * NERDTree
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-
-" In Ruby files, use 2 spaces instead of 4 for tabs
-autocmd FileType ruby setlocal sw=2 ts=2 sts=2
 
 " Do not automatically add comment leaders
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
@@ -57,6 +55,11 @@ set ofu=syntaxcomplete#Complete
 
 " Set location of YCM python file
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+
+" Only enable emmet in web files
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 03. Theme/Colors                                          "
@@ -128,6 +131,7 @@ autocmd BufWrite * :call DeleteTrailingWS()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Fast saving
 nmap <leader>w :w! <cr>
+nmap <leader>a :wa <cr>
 
 " Disable highlight when <leader><cr> is pressed
 nmap <silent> <leader><cr> :noh<cr>
