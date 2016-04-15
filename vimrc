@@ -36,9 +36,9 @@ call vundle#rc()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'ctrlp.vim'
 Plugin 'surround.vim'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'itchyny/lightline.vim'
 Plugin 'mattn/emmet-vim'
+Plugin 'Shougo/neocomplete.vim'
 
 filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
 
@@ -59,6 +59,10 @@ let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 " Only enable emmet in web files
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
+
+" Configure neocomplete
+let g:neocomplete#enable_at_startup = 1
+
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
