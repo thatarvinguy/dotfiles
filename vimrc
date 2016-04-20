@@ -38,14 +38,15 @@ Plugin 'ctrlp.vim'
 Plugin 'surround.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'mattn/emmet-vim'
-Plugin 'Shougo/neocomplete.vim'
-
+"Plugin 'Shougo/neocomplete.vim'
+Plugin 'scrooloose/nerdtree'
 filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
 
+"call vundle#end()
 
 " Enable NERDTree on startup
 "autocmd vimenter * NERDTree
-"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " Do not automatically add comment leaders
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
@@ -64,7 +65,6 @@ autocmd FileType html,css EmmetInstall
 let g:neocomplete#enable_at_startup = 1
 
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 03. Theme/Colors                                          "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -72,7 +72,7 @@ set t_Co=256               " enable 256-color mode
 syntax enable              " enable syntax highlighting
 
 colorscheme desert
-set background=dark        " set dark background
+set background=dark       " set dark background
 
 set encoding=utf8          " set uft8 as standard encoding
 
@@ -112,6 +112,7 @@ set viminfo^=%
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set autoindent             " auto-indent
 set tabstop=4              " tab spacing
+set mouse=a
 set softtabstop=4          " unify
 set shiftwidth=4           " indent/outdent by 4 columns
 set shiftround             " always indent/oudent to the nearest tabstop
@@ -149,9 +150,17 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
-
+"nmap `` :x<Enter>
+set number
+map <C-n> :NERDTreeToggle<CR>
 " Map jj to Esc
-inoremap jj <Esc>
 
+inoremap jj <Esc>:wa<Enter>
+inoremap <F7> <Esc>:wa<Enter>:x<Enter>
+nnoremap <F7> :wa<Enter>:x<Enter>
 " Map ; to :
 nnoremap ; :
+inoremap <A-o> <Esc>:w!
+inoremap <A-o><A-o> <Esc>:x
+"execute pathogen#infect()
+"call pathogen#helptags()
