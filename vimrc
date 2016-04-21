@@ -40,7 +40,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'mattn/emmet-vim'
 "Plugin 'Shougo/neocomplete.vim'
 Plugin 'scrooloose/nerdtree'
-"Plugin 'altercation/vim-colors-solarized'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'skammer/vim-css-color'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'ervandew/supertab'
@@ -78,8 +78,11 @@ syntax enable              " enable syntax highlighting
 
 
 "let g:solarized_termtrans = 1
-set background=dark  " set dark background
-colorscheme wombat256
+highlight Normal ctermfg=black ctermbg=lightgrey
+set background=light  " set dark background
+"colorscheme solarized
+"wombat256
+
 set encoding=utf8          " set uft8 as standard encoding
 
 
@@ -174,7 +177,10 @@ inoremap <F7> <Esc>:wa<Enter>:x<Enter>
 nnoremap <F7> :wa<Enter>:x<Enter>
 "n<Tab> = New tab, choose file
 nnoremap <Tab> :Te<Enter>
-"in<Alt+s> = Save all and quit all tabs
+"in<Alt+w> = Save(Write) all
+inoremap w <Esc>:wa<Enter>
+nnoremap w :wa<Enter>
+"in<Alt+s> = Save all and quit all
 inoremap s <Esc>:wqa<Enter>
 nnoremap s :wqa<Enter>
 
