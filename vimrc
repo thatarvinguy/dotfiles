@@ -40,6 +40,11 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'mattn/emmet-vim'
 "Plugin 'Shougo/neocomplete.vim'
 Plugin 'scrooloose/nerdtree'
+"Plugin 'altercation/vim-colors-solarized'
+Plugin 'skammer/vim-css-color'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'ervandew/supertab'
+
 filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
 
 "call vundle#end()
@@ -71,9 +76,10 @@ let g:neocomplete#enable_at_startup = 1
 set t_Co=256               " enable 256-color mode
 syntax enable              " enable syntax highlighting
 
-colorscheme desert
-set background=dark       " set dark background
 
+"let g:solarized_termtrans = 1
+set background=dark  " set dark background
+colorscheme wombat256
 set encoding=utf8          " set uft8 as standard encoding
 
 
@@ -152,15 +158,31 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 "nmap `` :x<Enter>
 set number
-map <C-n> :NERDTreeToggle<CR>
-" Map jj to Esc
 
+
+
+"in<Ctrl+n> = Open/close NERDTree
+map <C-n> :NERDTreeToggle<CR>
+"n<;>
+nnoremap ; :
+"i<jj> = Save all and exit INSERT mode
 inoremap jj <Esc>:wa<Enter>
+"n<``> = New file in new tab
+nnoremap `` :tabnew<Enter>
+"in<F7> = Save all and quit current tab
 inoremap <F7> <Esc>:wa<Enter>:x<Enter>
 nnoremap <F7> :wa<Enter>:x<Enter>
+"n<Tab> = New tab, choose file
+nnoremap <Tab> :Te<Enter>
+"in<Alt+s> = Save all and quit all tabs
+inoremap s <Esc>:wqa<Enter>
+nnoremap s :wqa<Enter>
+
+
+
+"Add :NERDTreeToggle<Enter> to this one maybe
 " Map ; to :
-nnoremap ; :
-inoremap <A-o> <Esc>:w!
-inoremap <A-o><A-o> <Esc>:x
+"inoremap <A-o> <Esc>:w!
+"inoremap <A-o><A-o> <Esc>:x
 "execute pathogen#infect()
 "call pathogen#helptags()
