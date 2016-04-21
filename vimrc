@@ -78,7 +78,8 @@ syntax enable              " enable syntax highlighting
 
 
 "let g:solarized_termtrans = 1
-highlight Normal ctermfg=black ctermbg=lightgrey
+highlight Normal ctermfg=black ctermbg=222
+"222 180 222 230 194 179
 set background=light  " set dark background
 "colorscheme solarized
 "wombat256
@@ -106,6 +107,7 @@ set cmdheight=2            " height of command bar
 set hid                    " buffer becomes hidden when abandoned
 set lazyredraw             " do not redraw while executing macros
 set magic                  " regular expressions
+
 
 " Return to last edit possition when opening files
 autocmd BufReadPost *
