@@ -1,6 +1,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " File: .vimrc                                              "
-" 							                                "
+"                                                           "
 " Sections:                                                 "
 "   01. General ................. General Vim behavior      "
 "   02. Events .................. General autocmd events    "
@@ -44,6 +44,9 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'skammer/vim-css-color'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'ervandew/supertab'
+Plugin 'Chiel92/vim-autoformat'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'jiangmiao/auto-pairs'
 
 filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
 
@@ -51,6 +54,7 @@ filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
 
 " Enable NERDTree on startup
 "autocmd vimenter * NERDTree
+autocmd vimenter * GitGutterEnable
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " Do not automatically add comment leaders
@@ -75,12 +79,14 @@ let g:neocomplete#enable_at_startup = 1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set t_Co=256               " enable 256-color mode
 syntax enable              " enable syntax highlighting
-
+let g:solarized_termcolors=256
+set background=light
+colorscheme solarized
 
 "let g:solarized_termtrans = 1
-highlight Normal ctermfg=black ctermbg=222
+""highlight Normal ctermfg=black ctermbg=222
 "222 180 222 230 194 179
-set background=light  " set dark background
+""set background=light  " set dark background
 "colorscheme solarized
 "wombat256
 
@@ -164,8 +170,8 @@ map <C-l> <C-W>l
 "nmap `` :x<Enter>
 set number
 
-
-
+"n<Ctrl+b> = Beautify code
+nnoremap <C-b> :Autoformat<Enter>
 "in<Ctrl+n> = Open/close NERDTree
 map <C-n> :NERDTreeToggle<CR>
 "n<;>
