@@ -47,6 +47,7 @@ Plugin 'ervandew/supertab'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'scrooloose/nerdcommenter'
 
 filetype plugin indent on  "filetype detection[ON] plugin [ON] indent[ON]
 
@@ -169,12 +170,21 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 "nmap `` :x<Enter>
 set number
+"n<Ctrl+b> = Beautify code
 
+"v<Alt+c> = Copy selection, n<Alt+v> = Paste selection
+"vnoremap ^[c y
+"nnoremap ^[v p
+
+
+"vn<Alt+/> = Comment/uncomment current line or selection. Don't forget about default NERDCommenter mappings(look in their docs)
+nnoremap / :call NERDComment(0,"toggle")<Enter>
+vnoremap / :call NERDComment(0,"toggle")<Enter>
 "n<Ctrl+b> = Beautify code
 nnoremap <C-b> :Autoformat<Enter>
 "in<Ctrl+n> = Open/close NERDTree
-map <C-n> :NERDTreeToggle<CR>
-"n<;>
+map <C-n> :NERDTreeToggle<Enter>
+"n<;> = Open :
 nnoremap ; :
 "i<jj> = Save all and exit INSERT mode
 inoremap jj <Esc>:wa<Enter>
@@ -191,6 +201,9 @@ nnoremap w :wa<Enter>
 "in<Alt+s> = Save all and quit all
 inoremap s <Esc>:wqa<Enter>
 nnoremap s :wqa<Enter>
+"Insert-easy
+nnoremap  i
+nnoremap <space> i<space>
 
 
 
